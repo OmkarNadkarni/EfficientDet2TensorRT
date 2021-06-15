@@ -1,5 +1,5 @@
-# this repo contains steps to Train, test , ONNX and tensorRT conversion
-
+# Steps to train EfficientDet
+# Convert EfficientDet to TensorRT
 
 ###  1. TRAINING EFFCIENT-DET using zylo117's repository
 # clone the git repo by zylo117
