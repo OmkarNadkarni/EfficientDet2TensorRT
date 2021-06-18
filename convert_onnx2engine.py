@@ -37,7 +37,7 @@ def build_engine(onnx_file_path):
 
 # generate TensorRT engine optimized for the target platform
     print('Building an engine...')
-    print(network)
+    # print(network)
     engine = builder.build_engine(network,builder_config)
 
     #context = engine.create_execution_context()
@@ -45,7 +45,7 @@ def build_engine(onnx_file_path):
     with open(engine_file_path, "wb") as f:
         f.write(engine.serialize())
 
-    return engine, context
+   # return engine
 
 
-engine, context = build_engine(weights_path)
+build_engine(weights_path)
