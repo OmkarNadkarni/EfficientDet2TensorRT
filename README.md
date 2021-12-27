@@ -1,7 +1,7 @@
 # Steps to train EfficientDet
 # Convert EfficientDet to TensorRT
 
-###  1. TRAINING EFFCIENT-DET using zylo117's repository
+###  1. TRAINING EFFICIENT-DET using zylo117's repository
 # clone the git repo by zylo117
 1. git clone https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch.git
 2. cd Yet.... #into the folder
